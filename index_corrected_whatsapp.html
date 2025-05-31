@@ -1,0 +1,200 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Quickmax Systems</title>
+<style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #fff8f3;
+    color: #333;
+  }
+  header {
+    background-color: #d84315;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
+  header .logo-area {
+    display: flex;
+    align-items: center;
+  }
+  header .logo-area img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  header .logo {
+    font-weight: 700;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+  }
+  nav a {
+    color: white;
+    margin-left: 2rem;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  nav a:hover {
+    color: #ff7043;
+  }
+  .hero {
+    background: linear-gradient(135deg, #ff7043, #d84315);
+    color: white;
+    text-align: center;
+    padding: 4rem 1rem;
+  }
+  .hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+  }
+  .btn-quote {
+    background-color: #fff3e0;
+    color: #d84315;
+    border: none;
+    padding: 0.8rem 2rem;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px rgba(216, 67, 21, 0.5);
+    transition: background-color 0.3s;
+  }
+  .btn-quote:hover {
+    background-color: #ffccbc;
+  }
+  h2 {
+    color: #d84315;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1.5rem 4rem;
+  }
+  .about p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    color: #5d4037;
+  }
+  .services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+  }
+  .service-item {
+    background-color: #fff3e0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(216, 67, 21, 0.2);
+    transition: box-shadow 0.3s;
+  }
+  .service-item:hover {
+    box-shadow: 0 4px 12px rgba(216, 67, 21, 0.4);
+  }
+  .service-item h3 {
+    color: #d84315;
+    margin-bottom: 0.8rem;
+  }
+  .service-item p {
+    color: #6d4c41;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #d84315;
+    color: white;
+    font-weight: 600;
+  }
+  .contact-info {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: white;
+  }
+  .contact-info a {
+    color: #ffe0b2;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="logo-area">
+    <img src="logo.png" alt="Quickmax Logo" />
+    <div class="logo">Quickmax Systems</div>
+  </div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </nav>
+</header>
+<section class="hero">
+  <h1>ICT Security & Solutions Provider</h1>
+  <p>Access Control | Time Attendance | CCTV | Fencing | Software | Cyber Security</p>
+  <button class="btn-quote">Request a Quote</button>
+</section>
+<main class="container">
+  <section class="about">
+    <h2>About Quickmax Systems</h2>
+    <p>Quickmax Systems is a trusted leader in ICT and security solutions. We specialize in modern, scalable, and secure systems that protect homes, businesses, and institutions. Our team is dedicated to innovation, reliability, and delivering excellence in every project.</p>
+  </section>
+  <section class="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-item">
+        <h3>Access Control Systems</h3>
+        <p>Secure your premises with advanced biometric, RFID, and card-based access technologies.</p>
+      </div>
+      <div class="service-item">
+        <h3>Time Attendance</h3>
+        <p>Manage workforce attendance efficiently with accurate, real-time tracking systems.</p>
+      </div>
+      <div class="service-item">
+        <h3>CCTV Surveillance</h3>
+        <p>Keep watch over your property with high-resolution, 24/7 video surveillance solutions.</p>
+      </div>
+      <div class="service-item">
+        <h3>Electric Fencing</h3>
+        <p>Enhance perimeter security with state-of-the-art electric fencing and alarm systems.</p>
+      </div>
+      <div class="service-item">
+        <h3>Software Development</h3>
+        <p>Get custom-built software designed to streamline your operations and drive growth.</p>
+      </div>
+      <div class="service-item">
+        <h3>Cyber Security</h3>
+        <p>Safeguard your digital infrastructure with robust cybersecurity solutions and risk audits.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  &copy; 2025 Quickmax Systems. All rights reserved.
+  <div class="contact-info">
+    WhatsApp: <a href="https://wa.me/254759507690" target="_blank">0759507690</a> |
+    Email: <a href="mailto:quickmaxsystems@gmail.com">quickmaxsystems@gmail.com</a>
+  </div>
+</footer>
+</body>
+</html>
